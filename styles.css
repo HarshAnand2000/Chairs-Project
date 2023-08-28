@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  overflow-x: hidden;
+}
+#wrapper {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* **************************header************************** */
+header {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+header div h1 {
+  margin-bottom: 32px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+header div p {
+  margin-bottom: 24px;
+  /* font-size: 18px;
+  line-height: 1.6; */
+}
+.btn {
+  background-color: #087f5b;
+  border: none;
+  padding: 16px 32px;
+  color: white;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0ca678;
+}
+header img {
+  height: 440px;
+  width: 440px;
+  border-radius: 10px;
+}
+
+h2 {
+  letter-spacing: -1px;
+}
+
+/* **************************section1************************** */
+section {
+  margin-bottom: 96px;
+}
+
+.section1 h2 {
+  margin-bottom: 48px;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+}
+
+.about-chairs-section {
+  display: flex;
+  gap: 80px;
+}
+
+.about-chair-heading {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.icon {
+  color: #087f5b;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+/* **************************section2************************** */
+
+.feedback-section {
+  background-color: #087f5b;
+  height: 250px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  border-radius: 10px;
+}
+.feedback-section img {
+  height: 100%;
+  border-radius: inherit;
+}
+.feedback-heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: white;
+}
+
+blockquote {
+  font-style: italic;
+  color: #e6fcf5;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+cite {
+  color: #96f2d7;
+}
+
+/* **************************section3************************** */
+
+.section3 {
+  display: flex;
+  gap: 80px;
+}
+
+.best-selling-chairs {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.best-selling-chairs-heading {
+  font-size: 30px;
+  margin-bottom: 48px;
+  letter-spacing: -0.5px;
+}
+.best-selling-chairs img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.figure-content {
+  padding: 32px 30px;
+}
+.figure-content h3 {
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.chair-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+.pricing .btn {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+/* **************************footer************************** */
+
+footer {
+  height: 10px;
+  width: 100%;
+  background-color: #087f5b;
+}
